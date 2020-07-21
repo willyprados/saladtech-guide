@@ -1,16 +1,14 @@
-import React from 'react';
-import { makeStyles } from '@material-ui/core/styles';
-import {InfoIdUser} from 'components/InfoIdUser';
-import {InfBox} from 'components/InfBox';
-import {InfGuide} from 'components/InfGuide';
-import {Footer} from 'components/Footer';
+import React from 'react'
+import { makeStyles } from '@material-ui/core/styles'
+import {InfoIdUser} from 'components/InfoIdUser'
+import {InfBox} from 'components/InfBox'
+import {InfGuide} from 'components/InfGuide'
+import {Footer} from 'components/Footer'
 import {Header} from 'components/Header'
-import {HeaderTwo} from 'components/HeaderTwo'
-import { data, img } from 'variables/general';
-import { Title } from 'components/Title';
-import Button from '@material-ui/core/Button';
+import { data, img } from 'variables/general'
+import { Title } from 'components/Title'
+import Button from '@material-ui/core/Button'
 import Typography from '@material-ui/core/Typography'
-// routes
 import { Link, useParams } from "react-router-dom"
 import { guiaParam, paths } from 'routes'
 
@@ -47,7 +45,6 @@ export const Guia = () => {
       {(guia === data.consignment) && (
         <>
           <Header data={img}/>
-          {/* <HeaderTwo/> */}
           <Title/>
           <InfoIdUser data={data}/>
           <InfBox data={data}/>

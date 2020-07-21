@@ -12,7 +12,6 @@ const useStyles = makeStyles(theme => ({
     },
     img: {
         width: "225px",
-        // height: "50px"
     },
     estadoPedido: {
         display: 'flex',

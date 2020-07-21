@@ -9,8 +9,6 @@ const useStyles = makeStyles(theme => ({
     color: "white",
     fontSize: "1rem",
     marginBottom: "2rem",
-    // alignItems: 'center',
-    // alignSelf: "stretch"
   }
 }));
 

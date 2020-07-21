@@ -7,7 +7,7 @@ const data = {
     addressee: "Willy Prado",
     recipientAddress: "Cl. 00 # 00-00, Medellin",
     deliveryDate: "2020-02-01",
-    stateBox: "En Camino",
+    stateBox: "Entregado",
     unit: "10",
     origin: "BOGOTÁ",
     destination: "MEDELLÍN",
