@@ -68,7 +68,7 @@ const Home = () => {
         <Redirect to={`${paths.guia}/${guia}`} />
       )}
       {(guia && !guiaValida) && (
-        <h3>Guia no valida, buscar de nuevo</h3>
+        <Typography className={classes.text} variant='subtitle1'>Guía no valida, buscar de nuevo</Typography>
       )}
     </div>
   )
