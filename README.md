@@ -1,7 +1,7 @@
 <!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
 <p align="center">
   <a href="https://saladguide.web.app/">
-    <img alt="SaladTech | Guide" src="./public/techstore.png" width="60" />
+    <img alt="SaladTech | Guide" src="./public/techstore.png" width="225" />
   </a>
 </p>
 <h1 align="center">
