@@ -1,7 +1,7 @@
 <!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
 <p align="center">
-  <a href="https://rickandmorty-xd.web.app/">
-    <img alt="Rick And Morty" src="./public/techstore.png" width="60" />
+  <a href="https://saladguide.web.app/">
+    <img alt="SaladTech | Guide" src="./public/techstore.png" width="60" />
   </a>
 </p>
 <h1 align="center">
@@ -32,7 +32,7 @@ You will also see any lint errors in the console.
 
 ## 🚀 To view the website you can click on the link below
 
-<a href="https://rickandmorty-xd.firebaseapp.com/">rickandmorty-xd.firebaseapp.com</a>
+<a href="https://saladguide.web.app/">saladguide.web.app</a>
 
 ## 🧐 Thanks for reading me. See you!
 
