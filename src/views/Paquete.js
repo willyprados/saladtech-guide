@@ -19,11 +19,21 @@ const useStyles = makeStyles(theme => ({
     textDecoration: 'none',
     color: 'black',
   },
-  button: {
+  text1: {
+    margin: '3rem',
+    marginTop: '5rem'
+  },
+  divbtn: {
     display: 'flex',
     justifyContent: 'center',
     marginBottom: '2rem',
   },
+  btn: {
+    background: '#659c35',
+    '&:hover': {
+      background: '#b4e689'
+    }
+  }
 }))
 
 export const Guia = () => {
@@ -42,9 +52,9 @@ export const Guia = () => {
           <InfoIdUser data={data}/>
           <InfBox data={data}/>
           <InfGuide data={data}/>
-          <div className={classes.button}>
+          <div className={classes.divbtn}>
             <Button variant="contained">
-              <Link to={paths.home} className={classes.text}>Buscar otra guia</Link>
+              <Link to={paths.home} className={classes.text}>Buscar otra guía</Link>
             </Button>
           </div>
           <Footer/>
@@ -52,10 +62,10 @@ export const Guia = () => {
       )}
       {(guia !== data.consignment) && (
         <>
-          <Typography variant='h5' align='center' >Guia no valida, regrese a la busqueda</Typography>
-          <div className={classes.button}>
-            <Button variant="contained">
-              <Link to={paths.home} className={classes.text}>Buscar otra guia</Link>
+          <Typography className={classes.text1} variant='h5' align='center' >Guía no valida, regresar a la busqueda</Typography>
+          <div className={classes.divbtn}>
+            <Button className={classes.btn} variant="contained">
+              <Link to={paths.home} className={classes.text}>Buscar otra guía</Link>
             </Button>
           </div>
         </>
