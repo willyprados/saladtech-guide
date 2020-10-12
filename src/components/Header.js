@@ -29,7 +29,7 @@ const useStyles = makeStyles(theme => ({
 export const Header = () => {
 
     const classes = useStyles();
-    console.log(img.data)
+    
     return(
         <div>
             <div className={classes.imag}>

@@ -1,0 +1,13 @@
+[debug] [2020-10-12T17:53:09.841Z] ----------------------------------------------------------------------
+[debug] [2020-10-12T17:53:09.845Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Willy\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js deploy
+[debug] [2020-10-12T17:53:09.845Z] CLI Version:   8.12.1
+[debug] [2020-10-12T17:53:09.846Z] Platform:      win32
+[debug] [2020-10-12T17:53:09.846Z] Node Version:  v13.8.0
+[debug] [2020-10-12T17:53:09.848Z] Time:          Mon Oct 12 2020 12:53:09 GMT-0500 (Colombia Standard Time)
+[debug] [2020-10-12T17:53:09.848Z] ----------------------------------------------------------------------
+[debug] [2020-10-12T17:53:09.848Z] 
+[debug] [2020-10-12T17:53:09.866Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2020-10-12T17:53:09.867Z] > authorizing via signed-in user
+[debug] [2020-10-12T17:53:09.867Z] [iam] checking project saladguide for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2020-10-12T17:53:09.873Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/saladguide:testIamPermissions  
+ {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
